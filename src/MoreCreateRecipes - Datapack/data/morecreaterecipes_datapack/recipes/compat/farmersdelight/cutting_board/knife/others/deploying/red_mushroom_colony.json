@@ -1,0 +1,29 @@
+{
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "farmersdelight"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "farmersdelight:red_mushroom_colony",
+            "count": 1
+        },
+        {
+            "tag": "c:tools/knives",
+            "count": 1
+        }
+    ],
+    "results": [
+        {
+            "item": "minecraft:red_mushroom",
+            "count": 5,
+            "return_chance": 1.0
+        }
+    ]
+}
