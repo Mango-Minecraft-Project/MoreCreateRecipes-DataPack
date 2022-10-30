@@ -1,7 +1,9 @@
 {
-    "cSpell.words": [
-        "farmersdelight",
-        "porkchop"
-    ]
-    
+  "cSpell.words": [
+    "farmersdelight",
+    "porkchop"
+  ],
+  "editor.tabSize": 2,
+  "editor.useTabStops": true,
+  "json.format.enable": true
 }

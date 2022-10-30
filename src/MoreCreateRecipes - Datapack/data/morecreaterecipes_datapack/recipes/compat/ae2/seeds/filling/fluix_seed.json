@@ -1,0 +1,44 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "ae2"
+      ]
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:fluix_crystal_seed"
+  },
+  "transitionalItem": {
+    "item": "ae2:fluix_crystal_seed"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "ae2:fluix_crystal_seed",
+          "count": 1
+        },
+        {
+          "fluid": "minecraft:water",
+          "amount": 8100
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:fluix_crystal_seed"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:fluix_crystal"
+    }
+  ],
+  "loops": 10
+}

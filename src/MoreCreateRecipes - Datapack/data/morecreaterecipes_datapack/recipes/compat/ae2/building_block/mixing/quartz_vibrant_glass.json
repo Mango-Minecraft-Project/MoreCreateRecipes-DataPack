@@ -4,26 +4,26 @@
       "condition": "fabric:all_mods_loaded",
       "values": [
         "create",
-        "farmersdelight"
+        "ae2"
       ]
     }
   ],
-  "type": "create:deploying",
+  "type": "create:mixing",
   "ingredients": [
     {
-      "item": "minecraft:beef",
+      "item": "ae2:quartz_glass",
       "count": 1
     },
     {
-      "tag": "c:tools/knives",
-      "count": 1
+      "item": "minecraft:glowstone_dust",
+      "count": 2
     }
   ],
   "results": [
     {
-      "item": "farmersdelight:minced_beef",
-      "count": 2,
-      "return_chance": 1
+      "item": "quartz_vibrant_glass",
+      "count": 1,
+      "return_chance": 1.0
     }
   ]
 }

@@ -4,25 +4,20 @@
       "condition": "fabric:all_mods_loaded",
       "values": [
         "create",
-        "farmersdelight"
+        "ae2"
       ]
     }
   ],
-  "type": "create:filling",
+  "type": "create:",
   "ingredients": [
     {
-      "item": "minecraft:glass_bottle",
+      "item": "ae2:pink_lumen_paint_ball",
       "count": 1
-    },
-    {
-      "fluid": "create:chocolate",
-      "nbt": {},
-      "amount": 20250
     }
   ],
   "results": [
     {
-      "item": "farmersdelight:hot_cocoa",
+      "item": "ae2:pink_paint_ball",
       "count": 1,
       "return_chance": 1.0
     }
