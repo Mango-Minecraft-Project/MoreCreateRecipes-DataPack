@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "ae2"
+      ]
+    }
+  ],
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "s"
+  ],
+  "key": {
+    "s": {
+      "item": "ae2:certus_quartz_dust"
+    }
+  },
+  "result": {
+      "item": "ae2:certus_crystal_seed",
+      "count": 2
+  }
+}

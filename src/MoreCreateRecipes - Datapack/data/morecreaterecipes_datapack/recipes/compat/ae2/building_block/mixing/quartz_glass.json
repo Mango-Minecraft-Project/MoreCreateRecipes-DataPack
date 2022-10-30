@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "ae2"
+      ]
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:glass",
+      "count": 4
+    },
+    {
+      "item": "ae2:certus_quartz_dust",
+      "count": 5
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:quartz_glass",
+      "count": 4,
+      "return_chance": 1.0
+    }
+  ]
+}

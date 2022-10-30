@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "ae2"
+      ]
+    }
+  ],
+  "type": "create:",
+  "ingredients": [
+    {
+      "item": "ae2:purple_lumen_paint_ball",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:purple_paint_ball",
+      "count": 1,
+      "return_chance": 1.0
+    }
+  ]
+}
