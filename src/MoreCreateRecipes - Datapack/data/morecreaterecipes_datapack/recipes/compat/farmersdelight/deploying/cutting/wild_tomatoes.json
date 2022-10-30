@@ -1,0 +1,48 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "farmersdelight"
+        }
+    ],
+    "fabric:load_conditions": [
+        {
+            "condition": "fabric:all_mods_loaded",
+            "values": [
+                "create",
+                "farmersdelight"
+            ]
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "farmersdelight:wild_tomatoes",
+            "count": 1
+        },
+        {
+            "tag": "c:tools/knives",
+            "count": 1
+        }
+    ],
+    "results": [
+        {
+            "item": "farmersdelight:tomato_seeds",
+            "count": 1
+        },
+        {
+            "item": "farmersdelight:tomato",
+            "count": 1,
+            "return_chance": 0.2
+        },
+        {
+            "item": "minecraft:green_dye",
+            "count": 1,
+            "return_chance": 0.1
+        }
+    ]
+}
