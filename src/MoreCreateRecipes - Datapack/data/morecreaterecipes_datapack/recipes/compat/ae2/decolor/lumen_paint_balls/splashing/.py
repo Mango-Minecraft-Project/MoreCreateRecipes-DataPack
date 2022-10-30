@@ -10,7 +10,7 @@ base = lambda color: {
       ]
     }
   ],
-  "type": "create:",
+  "type": "create:splashing",
   "ingredients": [
     {
       "item": f"ae2:{color}_lumen_paint_ball",
