@@ -1,7 +1,7 @@
 <div align="center">
 
 # MoreCreateRecipes - Datapack
-![icon](./img/icon/icon_450x450.png)
+![icon](./img/icon/icon_450x450.png)  
 |>English<|[简体中文](./i18n/README.zho-Hans_CN.md)|[繁體中文](./i18n/README.zho-Hant_TW.md)|
 
 </div>

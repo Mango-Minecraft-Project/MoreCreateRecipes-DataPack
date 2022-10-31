@@ -1,7 +1,7 @@
 <div align="center">
 
 # 更多機械動力配方-資料包
-![icon](../img/icon/icon_450x450.png)
+![icon](../img/icon/icon_450x450.png)  
 |[English](../README.md)|[简体中文](./README.zho-Hans_CN.md)|>繁體中文<|
 
 </div>

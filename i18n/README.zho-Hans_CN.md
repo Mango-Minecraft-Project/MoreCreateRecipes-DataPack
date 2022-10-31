@@ -1,7 +1,7 @@
 <div align="center">
 
 # 更多机械动力配方-数据包
-![icon](../img/icon/icon_450x450.png)
+![icon](../img/icon/icon_450x450.png)  
 |[English](../README.md)|>简体中文<|[繁体中文](./README.zho-Hant_TW.md)|
 
 </div>
