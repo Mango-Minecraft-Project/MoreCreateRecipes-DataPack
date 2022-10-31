@@ -1,12 +1,12 @@
 <div align="center">
 
-# Datapack-Template
-![icon](./img/icon/)
+# MoreCreateRecipes - Datapack
+![icon](./img/icon/icon_450x450.png)
 |>English<|[简体中文](./i18n/README.zho-Hans_CN.md)|[繁體中文](./i18n/README.zho-Hant_TW.md)|
 
 </div>
 
-- [Datapack-Template](#datapack-template)
+- [MoreCreateRecipes - Datapack](#morecreaterecipes---datapack)
   - [Gallery](#gallery)
   - [Description](#description)
 
@@ -18,7 +18,12 @@
 
 ## Description
 
-...
+Added recipes for linking other modules with Create, only Fabric 1.18.2 is supported.
+
+List of supported/planned mods:
+- [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2 "Applied Energistics 2")
+- [Hephaestus (Tinkers' Construct 3 Fabric Port)](https://www.curseforge.com/minecraft/mc-mods/hephaestus-fabric "Hephaestus (Tinkers' Construct 3 Fabric Port)")
+- [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric "Farmer's Delight")
 
 ---
 
