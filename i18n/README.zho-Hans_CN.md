@@ -9,6 +9,7 @@
 - [更多机械动力配方-数据包](#更多机械动力配方-数据包)
   - [艺廊](#艺廊)
   - [说明](#说明)
+  - [相关链接](#相关链接)
 
 ---
 
@@ -24,6 +25,12 @@
 - [应用能源2](https://www.mcmod.cn/class/260.html)
 - [Hephaestus (匠魂3 Fabric)](https://www.mcmod.cn/class/7524.html)
 - [农夫乐事](https://www.mcmod.cn/class/2820.html)
+
+## 相关链接
+
+- CurseForge: https://mango-services.github.io/src/re-directed/MoreCreateRecipes-Datapack/curseforge
+- MC百科: https://mango-services.github.io/src/re-directed/MoreCreateRecipes-Datapack/mcmod
+- Github: https://mango-services.github.io/src/re-directed/MoreCreateRecipes-Datapack/github
 
 ---
 
