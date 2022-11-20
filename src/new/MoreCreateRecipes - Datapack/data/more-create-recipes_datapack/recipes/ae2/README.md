@@ -1,0 +1,34 @@
+# TODO
+
+- [ ] Applied Energistics 2 (`ae2`)
+  - [ ] redyed
+    - [ ] `memory_card_{color}`
+    - [ ] paint ball
+      - [ ] `{color}_paint_ball`
+      - [ ] `{color}_lumen_paint_ball`
+    - [ ] cable
+      - [ ] `{color}_glass_cable`
+      - [ ] `{color}_smart_cable`
+      - [ ] `{color}_covered_cable`
+      - [ ] `{color}_smart_dense_cable`
+      - [ ] `{color}_covered_dense_cable`
+  - [ ] undyed
+    - [ ] `memory_card`
+    - [ ] cable
+      - [ ] `fluix_glass_cable`
+      - [ ] `fluix_smart_cable`
+      - [ ] `fluix_covered_cable`
+      - [ ] `fluix_smart_dense_cable`
+      - [ ] `fluix_covered_dense_cable`
+  - [ ] processor
+    - type: `calculation` / `engineering` / `logic`
+    - [ ] `{type}_processor_press`
+    - [ ] `printed_{type}_processor`
+    - [ ] `{type}_processor`
+- [ ] crafting
+  - [ ] seeds (craft)
+    - [ ] `certus_crystal_seed`
+    - [ ] `fluix_crystal_seed`
+  - [ ] seeds (grow)
+    - [ ] `certus_crystal_seed`
+    - [ ] `fluix_crystal_seed`
