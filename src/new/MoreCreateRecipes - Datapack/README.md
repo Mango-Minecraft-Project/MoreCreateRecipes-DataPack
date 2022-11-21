@@ -21,7 +21,7 @@
     - [Thermal Series](#thermal-series)
     - [Refined Storage](#refined-storage)
     - [Botania](#botania)
-    - [TREE](#tree)
+  - [TREE](#tree)
 
 ---
 ---
@@ -251,7 +251,7 @@
 ---
 ---
 
-### TREE
+## TREE
 
 ```
 └─recipes
