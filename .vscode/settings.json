@@ -24,6 +24,7 @@
     "mekanismgenerator",
     "mekanismtools",
     "Minecraft",
+    "modid",
     "mysticalagriculture",
     "netherite",
     "porkchop",
@@ -36,5 +37,10 @@
   ],
   "editor.tabSize": 2,
   "editor.useTabStops": true,
-  "json.format.enable": true
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "json.format.enable": true,
+
+  "tmmi.path": "./src/tmmi/items.json"
 }

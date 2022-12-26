@@ -1,0 +1,23 @@
+{
+  "forge:conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "mod_id": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "mod_id": ""
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        ""
+      ]
+    }
+  ],
+  "ingredients": [],
+  "results": []
+}
