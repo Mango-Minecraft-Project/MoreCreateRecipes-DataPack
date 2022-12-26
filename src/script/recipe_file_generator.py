@@ -46,21 +46,37 @@ def dict_sort(dictObject: dict) -> dict:
         
         "processingTime",
         "acceptMirrored",
-        "loops"   
+        "loops",
+        "headRequirement"
     ]
     return dict(sorted(dictObject.items(), key=lambda x: sort_keys.index(x[0])))
 
 while True:
     system('cls')
-    print('\n'.join(f'[{index+1}] {value}' for index, value in enumerate(create_recipes_list)))
-    id_ = int(input('\nChoice One Recipe: '))
+    print('\n'.join(f'[{index+1}]\t{value[:-5]}' for index, value in enumerate(create_recipes_list)))
+    print('> enter 0 to exit')
+    try:
+        id_ = input('\nNumber of Recipe: ')
+    except BaseException:
+        break
+    if not id_.isdigit():
+        continue
+    id_ = int(id_)
     if id_ == 0:
         break
     if id_-1 in range(len(create_recipes_list)):
-        recipe = json_load(base_path('create', create_recipes_list[id_-1])) | _base
-        mod_id = input('Mod ID: ')
-        recipe['forge:conditions'][1]['mod_id'] = mod_id
-        recipe['fabric:load_conditions'][0]['values'] = ['create', mod_id]
+        recipe = json_load(base_path('create', create_recipes_list[id_-1]))
+        if recipe['type'] in ('create:mechanical_crafting', 'create:sequenced_assembly'):
+            recipe = (fabric_load_condition | forge_load_condition) | recipe
+        else:
+            recipe = _base | recipe
+        try:
+            mod_id = input('Mod ID: ')
+        except BaseException:
+            mod_id = ''
+        if mod_id:
+            recipe['forge:conditions'].append({"type": "forge:mod_loaded","mod_id": mod_id})
+            recipe['fabric:load_conditions'][0]['values'] = ['create', mod_id]
         print('\n\ndata:\n')
         debug_print(dict_sort(recipe))
         print()

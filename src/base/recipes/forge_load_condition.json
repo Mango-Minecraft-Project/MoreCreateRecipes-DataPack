@@ -3,10 +3,6 @@
     {
       "type": "forge:mod_loaded",
       "mod_id": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "mod_id": ""
     }
   ]
 }

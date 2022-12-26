@@ -3,21 +3,27 @@
     {
       "type": "forge:mod_loaded",
       "mod_id": "create"
-    },
-    {
-      "type": "forge:mod_loaded",
-      "mod_id": ""
     }
   ],
   "fabric:load_conditions": [
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "create",
-        ""
+        "create"
       ]
     }
   ],
-  "ingredients": [],
-  "results": []
+  "ingredients": [
+    {
+      "item | tag": "",
+      "count | amount": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "",
+      "count": 1,
+      "chance": 1
+    }
+  ]
 }
