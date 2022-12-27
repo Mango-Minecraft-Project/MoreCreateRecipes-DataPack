@@ -42,5 +42,7 @@
   },
   "json.format.enable": true,
 
-  "tmmi.path": "./src/tmmi/items.json"
+  "tmmi.path": "./src/base/tmmi/items.json",
+  "tmmi.autoLoad": true,
+  "editor.suggest.preview": true
 }
