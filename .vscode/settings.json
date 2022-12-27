@@ -37,7 +37,11 @@
   ],
   "editor.tabSize": 2,
   "editor.useTabStops": true,
-  "[python]": {
+  "[pyt{
+    "mod_id": "ae2",
+    "item_id": "",
+    "path": "general/ae2/cable/covered_cable"
+  },hon]": {
     "editor.tabSize": 4
   },
   "json.format.enable": true,

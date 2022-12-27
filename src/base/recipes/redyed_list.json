@@ -1,0 +1,37 @@
+{
+  "ae2:covered_cable": {
+    "mod_id": "ae2",
+    "item_id": "",
+    "path": "general/ae2/cable/covered_cable/"
+  },
+  "ae2:covered_dense_cable": {
+    "mod_id": "ae2",
+    "item_id": "",
+    "path": "general/ae2/cable/covered_dense_cable/"
+  },
+  "ae2:glass_cable": {
+    "mod_id": "ae2",
+    "item_id": "",
+    "path": "general/ae2/cable/glass_cable/"
+  },
+  "ae2:memory_cards": {
+    "mod_id": "ae2",
+    "item_id": "",
+    "path": "general/ae2/cable/memory_cards/"
+  },
+  "ae2:paint_balls": {
+    "mod_id": "ae2",
+    "item_id": "",
+    "path": "general/ae2/paint_balls/"
+  },
+  "ae2:smart_cable": {
+    "mod_id": "ae2",
+    "item_id": "",
+    "path": "general/ae2/cable/smart_cable/"
+  },
+  "ae2:smart_dense_cable": {
+    "mod_id": "ae2",
+    "item_id": "",
+    "path": "general/ae2/cable/smart_dense_cable/"
+  }
+}
