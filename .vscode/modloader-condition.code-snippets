@@ -1,0 +1,79 @@
+{
+	"Forge": {
+		"scope": "json",
+		"prefix": "forge condition",
+		"body": [
+			"\"forge:conditions\": [",
+			"\t{",
+			"\t\t\"type\": \"forge:mod_loaded\",",
+			"\t\t\"modid\": \"create\"",
+			"\t},",
+			"\t{",
+			"\t\t\"type\": \"forge:mod_loaded\",",
+			"\t\t\"modid\": \"${modid}\"",
+			"\t}",
+			"],"
+		],
+		"description": "forge loader's data condition"
+	},
+	"Fabric": {
+		"scope": "json",
+		"prefix": "fabric condition",
+		"body": [
+			"\"fabric:load_conditions\": [",
+			"\t{",
+			"\t\t\"condition\": \"fabric:all_mods_loaded\",",
+			"\t\t\"values\": [",
+			"\t\t\t\"create\",",
+			"\t\t\t\"${modid}\"",
+			"\t\t]",
+			"\t}",
+			"],"
+		],
+		"description": "fabric loader's data condition"
+	},
+	"Base": {
+		"scope": "json",
+		"prefix": "base recipe",
+		"body": [
+			"{",
+			"\t\"type\": \"create:${recipe_id}\",",
+			"\t\"ingredients\": [],",
+			"\t\"results\": []",
+			"}"
+		],
+		"description": "base's recipes"
+	},
+	"Mechanical Crafting": {
+		"scope": "json",
+		"prefix": "mechanical crafting recipe",
+		"body": [
+			"{",
+			"\t\"type\": \"create:mechanical_crafting\",",
+			"\t\"pattern\": [],",
+			"\t\"key\": {},",
+			"\t\"result\": {",
+			"\t\t\"item\": \"\"",
+			"\t},",
+			"\t\"acceptMirrored\": true",
+			"}"
+		],
+		"description": "mechanical crafting's recipes"
+	},
+	"Recipe Sequence": {
+		"scope": "json",
+		"prefix": "recipe sequence recipe",
+		"body": [
+			"{",
+			"\t\"type\": \"create:sequenced_assembly\",",
+			"\t\"ingredients\": [],",
+			"\t\"transitionalItem\": {",
+			"\t\t\"item\": \"\"",
+			"\t},",
+			"\t\"sequence\": [],",
+			"\t\"results\": []",
+			"}"
+		],
+		"description": "recipe sequence's recipes"
+	}
+}
